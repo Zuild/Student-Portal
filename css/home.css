@@ -1,0 +1,291 @@
+body {
+    background-color: #fff;
+    font-family: 'Cabin', sans-serif; /* Apply Google Font */
+    margin: 0;
+    padding: 0;
+}
+
+.class-0 {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */;
+    width:99%; /* Use percentage for responsiveness */
+    height: 99vh; /* Full viewport height */
+}
+.container {
+    background-color: #f4f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 1px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */;
+    width:95%; /* Use percentage for responsiveness */
+    height: 80vh; /* Full viewport height */
+}
+
+.img-1 img {
+    height: 60%; /* Adjust as needed */
+    position: absolute;
+    left: 3%; /* Position the image at the left edge */
+    top: 10%; /* Position the image at the top */
+    border-top-left-radius: 8px; /* Rounded corner on top left */
+    border-bottom-left-radius: 8px; /* Rounded corner on bottom left */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 45%; /* Use percentage for responsiveness */
+    height: 80vh; /* Full viewport height */
+}
+
+.img-1::after {
+    content: ''; /* Required for pseudo-element */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 5px; /* Width of the border on the left */
+    background-color: #333; /* Color of the border */
+    border-top-right-radius: 8px; /* Rounded corner on top right */
+    border-bottom-right-radius: 8px; /* Rounded corner on bottom right */
+}
+
+
+.class-1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.class-2 {
+    font-size: 14px; /* Increase readability */
+    text-decoration: none;
+    color: #0c1859;
+}
+
+
+.class-3 {body {
+    background-color: #fff;
+    font-family: 'Cabin', sans-serif; /* Apply Google Font */
+    margin: 0;
+    padding: 0;
+}
+    background-color: #f4f4f8;
+    align-items: left;
+    margin-right: -54%;
+    margin-top: -15px;
+    padding: 55px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px#00563B; /* Soft shadow */
+    width:31%; /* Use percentage for responsiveness */
+    height: 56vh; /* Full viewport height */
+}
+
+.login-btn{
+    background: #00563B;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10%;
+    width: 100%; 
+    box-sizing: border-box; 
+    border: 1px solid #00563B;
+}
+.fpass{
+    position: absolute;
+    margin-left: -29%;
+    margin-top: 6.5%;
+}
+label{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex: auto;
+}
+
+
+.class-3 input,
+.class-3 select {
+    flex: 4;
+    padding: 18px;
+    border: 1px solid#0c1859;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+    color: #040404;
+    margin-top: 3%;
+    background-color: #f4f4f8;
+    height: 10px;
+    margin: 0 auto 10 0;
+    cursor: pointer;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.class-3 .toggle-password {
+    cursor: pointer;
+    position: absolute;
+    right:165px;
+    top: 55%;
+    transform: translateY(-63%);
+    color: #9d9292;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+
+.class-3 > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.class-3 label {
+    flex: 1;
+    margin-right: 10px;
+    font-size: 12px; 
+}
+
+
+.class-3 input[type="password"] {
+    padding-right: 15px;
+}
+
+.label, .pass{
+    margin-left: 15%;
+    position: absolute;
+}
+.label{
+    width: 10%;
+    margin-top: 20px;
+}
+.class-3 select{
+    color: black;
+    border-color: none;
+}
+h2{
+   color: black;
+}
+.class-3 a{
+    color:#00563B;
+    text-decoration: underline;
+}
+
+.class-3 p, .class-3 a{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+option{
+    color: black;
+}
+.password-toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .password-toggle-icon i {
+    font-size: 18px;
+    line-height: 1;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+    margin-bottom: 20px;
+  }
+  
+  .password-toggle-icon i:hover {
+    color: #000;
+  }
+  .label {
+    margin-bottom: 20px; /* Adjust margin as needed */
+    width: 14%;
+}
+
+.label > label {
+    display: block;
+    margin-bottom: 5px; /* Space between label and input */
+}
+
+.selection-1{
+    position: absolute;
+    width: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 100%;
+    margin-top: -25%;
+    border-color: transparent;
+}
+
+.selection-1 option{
+    font-size: 12px;
+    text-align: left;
+    margin-left: left;
+    padding: 10px;
+}
+#Type {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: flex;
+}
+
+/* Hide the default dropdown arrow */
+#Type::-ms-expand,
+#Type::-webkit-inner-spin-button,
+#Type::-webkit-outer-spin-button {
+    display: none;
+}
+
+/* Style for the dropdown */
+#Type {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: calc(100% - 2px); /* Adjust for borders */
+    border: 1px solid #ccc; /* Optional: Add border for styling */
+    background-color: #fff; /* Optional: Add background color */
+    display: none;
+}
+
+.img-1 h3{
+    display: flex;
+    position: absolute;
+    margin: -11px 0 0 -40%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #00563B;
+    font-size: 16px;
+    font-weight: bold;
+}
+/*
+.logo {
+    position: absolute;
+    margin-left: 1%;
+    margin-top: -35%;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+*/
